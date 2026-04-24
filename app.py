@@ -84,6 +84,6 @@ if st.session_state.lista_pazienti:
                         else:
                             st.write("*Vuota*")
         else:
-            st.error("Impossibile trovare una disposizione che rispetti tutti i vincoli.")
+            st.error("Impossibile trovare una disposizione che rispetti tutti i vincoli. Chiedere eventualmente posti letto in appoggio ad altri reparti")
 else:
     st.info("La lista è vuota. Aggiungi pazienti dalla barra laterale.")
