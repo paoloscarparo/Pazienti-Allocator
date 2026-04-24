@@ -66,7 +66,7 @@ st.subheader("Lista Pazienti Corrente")
 if st.session_state.lista_pazienti:
     st.table(st.session_state.lista_pazienti)
     
-    if st.button("🚀 Calcola Assegnazione Camere"):
+    if st.button("Calcola Assegnazione Camere"):
         risultato = assegna_camere(st.session_state.lista_pazienti)
         
         if risultato:
